@@ -120,6 +120,8 @@ position: sticky;
        display:flex;
        flex:wrap;
        justify-content: space-between;
+       padding-top:7px;
+       padding-bottom: 3px;
    }
  
 
