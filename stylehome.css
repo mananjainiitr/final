@@ -325,9 +325,6 @@ margin-left:10%;
    font-family: 'TypoPRO Bebas Neue';
    color: rgba(248, 209, 108, 0.5) ;
  }
- #blognav{
-  margin-left:100px;
-}
 @media only screen and (max-width: 1000px) {
   [class *= link] {
 
@@ -416,9 +413,7 @@ display: none;
 }
 .nav-button{
   max-width: none;
-
-    padding-top: 5px;
-
+  
   
 }
 .about{
