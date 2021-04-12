@@ -26,7 +26,7 @@ flex-wrap: wrap;
 .l1
 {   z-index: 1;
     flex : 50%;
-    height : 55px;
+    height : 60px;
     background-color:#ffffff;
     position:sticky;
     position: -webkit-sticky;
@@ -44,7 +44,7 @@ position: sticky;
 {
     z-index: 1;
     flex : 50%;
-    height : 55px;
+    height : 60px;
     background-color:#ffffff;
     display:flex;
     flex-direction: row;
@@ -60,7 +60,7 @@ position: sticky;
 }
    .nav-button{
     flex-grow: 4;
-    height :70px;
+    height :50px;
     text-align: center;
     
     max-width:80px;
@@ -71,7 +71,7 @@ position: sticky;
      
      color:rgba(0, 0, 0, 0.87);
      font-size: 1.3rem;
-     margin-top: 10px;
+     margin-top: 20px;
      font-family: 'TypoPRO Bebas Neue';
         
         
@@ -140,7 +140,7 @@ position: sticky;
 
    }
    #imgref{
-padding-left: 140px;
+padding-left: 12.5vw;
   }
   #hammburger{
         display:none;
@@ -156,7 +156,7 @@ padding-left: 140px;
         }
         .imgg{
             height:200px;
-           width:25vw;
+           width:100%;
         }
         .titl{
             font-family: 'Lato', sans-serif;
@@ -209,11 +209,12 @@ padding-left: 140px;
     width: 100%;
     height: 3rem;            /* Footer height */
   }
-  .nav-button{
-    padding-top: 5px;
-  }
+  
   #blognav{
     margin-left:100px;
+  }
+  .atag{
+      width:calc(33.333333% - 2em);
   }
   
 @media only screen and (max-width: 997px) {
