@@ -102,7 +102,7 @@ max-width: 100%;
   }
   .nav-button{
    flex-grow: 4;
-   height :70px;
+   height :50px;
    text-align: center;
    
    max-width:80px;
@@ -113,7 +113,7 @@ max-width: 100%;
     
     color:rgba(0, 0, 0, 0.87);
     font-size: 1.3rem;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: "TypoPRO Bebas Neue";
     
     
@@ -325,6 +325,9 @@ margin-left:10%;
    font-family: 'TypoPRO Bebas Neue';
    color: rgba(248, 209, 108, 0.5) ;
  }
+ #blognav{
+  margin-left:100px;
+}
 @media only screen and (max-width: 1000px) {
   [class *= link] {
 
@@ -413,7 +416,9 @@ display: none;
 }
 .nav-button{
   max-width: none;
-  
+
+    padding-top: 5px;
+
   
 }
 .about{
